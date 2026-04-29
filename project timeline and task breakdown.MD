@@ -22,15 +22,15 @@ A full Recruitment and Applicant Management System designed for WISI Agency, inc
 
 ### ✅ Environment Setup
 
-* [ ] Install WordPress (Local + Live Server)
-* [ ] Install and activate required plugins:
+* [✅] Install WordPress (Local + Live Server)
+* [✅] Install and activate required plugins:
 
-  * [ ] JetEngine
-  * [ ] JetFormBuilder
-  * [ ] Elementor Pro
-  * [ ] Crocoblock dependencies
-* [ ] Configure Permalinks (Post name)
-* [ ] Setup User Roles (Admin, Staff, Applicant)
+  * [✅] JetEngine
+  * [✅] JetFormBuilder
+  * [✅] Elementor Pro
+  * [✅] Crocoblock dependencies
+* [✅] Configure Permalinks (Post name)
+* [✅] Setup User Roles (Admin, Staff, Applicant)
 
 ---
 
@@ -38,29 +38,29 @@ A full Recruitment and Applicant Management System designed for WISI Agency, inc
 
 ### ✅ Custom Post Types / CCT
 
-* [ ] Create **Applicant List (CCT)**
-* [ ] Create **Employers (CPT/CCT)**
-* [ ] Create **Job Categories (CCT)**
-* [ ] Create **Statuses (CCT)**
+* [✅] Create **Applicant List (CCT)**
+* [✅] Create **Employers (CPT/CCT)**
+* [✅] Create **Job Categories (CCT)**
+* [✅] Create **Statuses (CCT)**
 
 ### ✅ Meta Fields (Applicant)
 
-* [ ] Applicant ID (custom format: 81-YYYY-XXXXX)
-* [ ] First Name
-* [ ] Middle Name
-* [ ] Last Name
-* [ ] Full Name (auto-generated)
-* [ ] Date of Birth (timestamp)
-* [ ] Age (auto-calculated)
-* [ ] Gender
-* [ ] Contact Number
-* [ ] Email Address
-* [ ] Address
-* [ ] Photo (2x2 format)
-* [ ] Status (Pending / Approved / Rejected)
-* [ ] Assigned Staff
-* [ ] Date Applied
-
+* [✅] Applicant ID (custom format: 81-YYYY-XXXXX)
+* [✅] First Name
+* [✅] Middle Name
+* [✅] Last Name
+* [✅] Full Name (auto-generated)
+* [✅] Date of Birth (timestamp)
+* [✅] Age (auto-calculated)
+* [✅] Gender
+* [✅] Contact Number
+* [✅] Email Address
+* [✅] Address
+* [✅] Photo (2x2 format)
+* [✅] Status (Pending / Approved / Rejected)
+* [✅] Assigned Staff
+* [✅] Date Applied
+* [✅] Other Metafields
 ---
 
 # ⚙️ PHASE 3: BACKEND LOGIC & AUTOMATION
@@ -68,17 +68,17 @@ A full Recruitment and Applicant Management System designed for WISI Agency, inc
 ### ✅ Custom Hooks / Functions
 
 * [ ] Generate Applicant ID (auto-increment with prefix)
-* [ ] Prevent duplicate Applicant ID (race condition handling)
-* [ ] Auto-generate Full Name (Firstname + Middlename + Lastname)
-* [ ] Auto-calculate Age from Date of Birth
-* [ ] Assign default Status = Pending
+* [✅] Prevent duplicate Applicant ID (race condition handling)
+* [✅] Auto-generate Full Name (Firstname + Middlename + Lastname)
+* [✅] Auto-calculate Age from Date of Birth
+* [✅] Assign default Status = Pending
 
 ### ✅ Validation Rules
 
 * [ ] Required fields validation
 * [ ] Email format validation
-* [ ] Duplicate submission prevention
-* [ ] File upload validation (image only, 2x2 ratio)
+* [✅] Duplicate submission prevention
+* [✅] File upload validation (image only, 2x2 ratio)
 
 ---
 
@@ -108,7 +108,7 @@ A full Recruitment and Applicant Management System designed for WISI Agency, inc
 
 ### ✅ Public Pages
 
-* [ ] Home Page
+* [✅] Home Page
 * [ ] Applicant Registration Page
 * [ ] About / Info Page
 
@@ -121,7 +121,7 @@ A full Recruitment and Applicant Management System designed for WISI Agency, inc
 ### ✅ UI Components
 
 * [ ] Responsive Design (Desktop / Tablet / Mobile)
-* [ ] Styled Forms (Elementor + Custom CSS)
+* [✅] Styled Forms (Elementor + Custom CSS)
 * [ ] Styled Select Fields (Select2 customization)
 * [ ] Status Badges (color-coded)
 
@@ -145,7 +145,7 @@ A full Recruitment and Applicant Management System designed for WISI Agency, inc
 
 # 📤 PHASE 7: EXPORT & REPORTING
 
-* [ ] Export Applicant Data to CSV
+* [✅] Export Applicant Data to CSV
 * [ ] Filter before export
 * [ ] Generate basic reports:
 
@@ -196,26 +196,11 @@ A full Recruitment and Applicant Management System designed for WISI Agency, inc
 
 ---
 
-# 📅 SUGGESTED TIMELINE
-
-| Phase     | Task               | Duration |
-| --------- | ------------------ | -------- |
-| Phase 1–2 | Setup + Database   | 2–3 days |
-| Phase 3   | Backend Logic      | 3–5 days |
-| Phase 4   | Forms              | 2–3 days |
-| Phase 5   | Frontend UI        | 4–6 days |
-| Phase 6–7 | Listings & Reports | 3–4 days |
-| Phase 8–9 | Testing            | 2–3 days |
-| Phase 10  | Deployment         | 1–2 days |
-
-**Total Estimated Time: ~2–3 Weeks**
-
----
 
 # 📌 CURRENT STATUS TRACKER
 
-* [ ] Setup Completed
-* [ ] Database Ready
+* [✅] Setup Completed
+* [✅] Database Ready
 * [ ] Forms Working
 * [ ] Backend Logic Stable
 * [ ] UI Completed
@@ -234,6 +219,7 @@ A full Recruitment and Applicant Management System designed for WISI Agency, inc
 ---
 
 **Prepared for:** WISI Agency
-**System Type:** Recruitment & Applicant Management System
+**System Type:** Recruitment & Applicant Management System (Alpha V2.0) BETA
+https://www.portal.wisiagency.com
 
 ---
